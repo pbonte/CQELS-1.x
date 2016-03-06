@@ -1,0 +1,2 @@
+# LGPL
+LGPL version
