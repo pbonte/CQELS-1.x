@@ -1,7 +1,6 @@
 package org.deri.cqels.integration.websocket;
 
 import org.deri.cqels.integration.Injector;
-import sun.java2d.pipe.SpanShapeRenderer;
 
 import java.io.*;
 import java.net.InetAddress;
