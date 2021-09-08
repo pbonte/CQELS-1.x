@@ -27,7 +27,7 @@ public class RSP4JCQELSConstructExample {
         cqels.register(inputStream);
         cqels.setConstructOutput(outputStream);
 
-        ContinuousQuery<Graph, Binding, Binding, Graph> cq = cqels.parseConstruct(query1);
+        ContinuousQuery<Graph, Binding, Binding, Graph> cq = cqels.parseCQELSConstruct(query1);
 
         ContinuousQueryExecution<Graph, Binding, Binding, Graph> cqe = cqels.parseConstruct(cq);
 

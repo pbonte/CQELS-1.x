@@ -35,11 +35,11 @@ public class Duration {
 			unit=(long)60E9;
 		}
 		else if(str.charAt(l)=='h'){
-			number=str.substring(0, l-1);
+			number=str.substring(0, l);
 			unit=(long)3600E9;
 		}
 		else if(str.charAt(l)=='d'){
-			number=str.substring(0, l-1);
+			number=str.substring(0, l);
 			unit=((long)3600E9)*24;
 		}
 		
